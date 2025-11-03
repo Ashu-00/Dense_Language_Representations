@@ -1,0 +1,26 @@
+{
+    "distilbert-base-uncased": {
+        "physical-appearance": 0.6805555555555556,
+        "race-color": 0.5708661417322834,
+        "sexual-orientation": 0.7849462365591398,
+        "age": 0.5604395604395604,
+        "religion": 0.7567567567567568,
+        "nationality": 0.5185185185185185,
+        "socioeconomic": 0.5894736842105263,
+        "disability": 0.7846153846153846,
+        "autre": 0.7272727272727273,
+        "gender": 0.571875
+    },
+    "bert-base-uncased": {
+        "physical-appearance": 0.7361111111111112,
+        "race-color": 0.594488188976378,
+        "sexual-orientation": 0.7849462365591398,
+        "age": 0.5494505494505495,
+        "religion": 0.7657657657657657,
+        "nationality": 0.47685185185185186,
+        "socioeconomic": 0.5684210526315789,
+        "disability": 0.7692307692307693,
+        "autre": 0.7272727272727273,
+        "gender": 0.56875
+    }
+}

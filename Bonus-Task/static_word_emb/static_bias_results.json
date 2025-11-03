@@ -1,0 +1,32 @@
+{
+    "glove-wiki-gigaword-50": {
+        "sim_fem_car": 0.03243052214384079,
+        "sim_male_car": 0.04588296264410019,
+        "sim_fem_fam": 0.0773513987660408,
+        "sim_male_fam": 0.07217612117528915
+    },
+    "glove-wiki-gigaword-100": {
+        "sim_fem_car": 0.030528411269187927,
+        "sim_male_car": 0.04346087947487831,
+        "sim_fem_fam": 0.06946255266666412,
+        "sim_male_fam": 0.06487072259187698
+    },
+    "glove-wiki-gigaword-300": {
+        "sim_fem_car": 0.014790477231144905,
+        "sim_male_car": 0.025368791073560715,
+        "sim_fem_fam": 0.05182254686951637,
+        "sim_male_fam": 0.04594460502266884
+    },
+    "word2vec-google-news-300": {
+        "sim_fem_car": 0.00695438776165247,
+        "sim_male_car": 0.010907159186899662,
+        "sim_fem_fam": 0.04460083693265915,
+        "sim_male_fam": 0.0371871143579483
+    },
+    "fasttext-wiki-news-subwords-300": {
+        "sim_fem_car": 0.0388621985912323,
+        "sim_male_car": 0.040660664439201355,
+        "sim_fem_fam": 0.05512639135122299,
+        "sim_male_fam": 0.05179248005151749
+    }
+}
