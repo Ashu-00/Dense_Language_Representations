@@ -6,6 +6,7 @@ from tqdm import tqdm
 models = [
     "distilbert-base-uncased",
     "bert-base-uncased",
+    "roberta-base"
 ]
 
 ds = load_dataset("jannalu/crows_pairs_multilingual", "english")
