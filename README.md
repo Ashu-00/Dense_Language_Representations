@@ -1,5 +1,7 @@
 # Dense_Language_Representations
 
+**Important**: Install requirements.txt before everything. `pip install -r requirements.txt`
+
 ## Task 1
 
 #### Codebase
