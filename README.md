@@ -31,3 +31,27 @@ Task1/
         ├── README.txt
         └── SimLex-999.txt
 ```
+
+## Task 2
+
+#### CodeBase
+
+- `crossalign.py`: Main code for all training and evaluation
+- `get_emb.py`: Run to download embeddings for english and hindi
+
+#### How-to-run
+
+1. Run the `get_emb.py`. (expects gunzip and curl)
+2. Run `crossalign.py` to get all the results and save the transformation matrices.
+
+#### Directory Structure
+
+```
+Task2/
+├── alignment_results.json
+├── crossalign.py
+├── get_emb.sh
+├── hi-en.0-5000.txt
+└── hi-en.5000-6500.txt
+```
+

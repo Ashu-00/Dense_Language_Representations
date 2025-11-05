@@ -1,0 +1,44 @@
+{
+    "unaligned": {
+        "precision@1": 0.0,
+        "precision@5": 0.0,
+        "eng_acc": 0.825,
+        "hi_acc": 0.52
+    },
+    "procrustes": {
+        "precision@1": 0.1886685552407932,
+        "precision@5": 0.38923512747875355,
+        "eng_acc": 0.875,
+        "hi_acc": 0.605
+    },
+    "linear_regression": {
+        "precision@1": 0.0016997167138810198,
+        "precision@5": 0.0056657223796034,
+        "eng_acc": 0.805,
+        "hi_acc": 0.48
+    },
+    "adversial_no_ortho": {
+        "precision@1": 0.0,
+        "precision@5": 0.0,
+        "eng_acc": 0.85,
+        "hi_acc": 0.52
+    },
+    "hybrid_no_ortho": {
+        "precision@1": 0.06402266288951841,
+        "precision@5": 0.16543909348441926,
+        "eng_acc": 0.855,
+        "hi_acc": 0.52
+    },
+    "hybrid_with_ortho_150": {
+        "precision@1": 0.18356940509915015,
+        "precision@5": 0.37620396600566575,
+        "eng_acc": 0.885,
+        "hi_acc": 0.53
+    },
+    "hybrid_with_ortho_200": {
+        "precision@1": 0.19093484419263457,
+        "precision@5": 0.3903682719546742,
+        "eng_acc": 0.865,
+        "hi_acc": 0.535
+    }
+}
