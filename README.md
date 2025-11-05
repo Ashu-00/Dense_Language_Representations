@@ -55,3 +55,28 @@ Task2/
 └── hi-en.5000-6500.txt
 ```
 
+## Bonus Task
+
+#### Directory Structure
+```
+Bonus-Task/
+├── contextual_emb/
+│   ├── bias_results_th.1_.json
+│   ├── bias_results.json
+│   ├── contectual.py
+│   └── plot_results.py
+├── static_word_emb/
+│   ├── static_bias_results.json
+│   ├── static.py
+│   └── heatmaps/
+```
+
+#### Codebase
+- `static_word_emb/static.py`: Does the evaluation on static embeddings of given models and saves the results and heatmaps.
+
+- `contextual_emb/contectual.py`: Evaluates and saves all the bias results.
+
+- `contextual_emb/plot_results.py`: Plots the results of contextual models.
+
+
+
