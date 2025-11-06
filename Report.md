@@ -2,10 +2,10 @@
 By Gautam Ranka
 
 ## Tasks Completed
+1. [**Part 1: Dense Representations**](#part-1-dense-representations): Constructed a co-occurrence matrix using different window sizes, dimensionality reduction using SVD, evaluation of obtained and pretrained embeddings using Simlex-999 and Analogy Accuracy.  
+2. [**Part 2: Cross-Lingual Alignment**](#part-2-cross-lingual-alignment): Cross-lingual alignment of English and Hindi embeddings by finding a mapping matrix \(W\), using Procrustes Alignment, Linear Regression, Adversarial Training with and without orthogonalization loss, evaluated using BLI (intrinsic) and Sentiment Classification after mapping (extrinsic).  
+3. [**Bonus Task: Harmful Associations**](#bonus-task-harmful-associations): Evaluation of static embeddings for gender bias using the WEAT dataset and contextual models using Pseudo Log Likelihoods comparison for stereotypical and non-stereotypical sentences.
 
-1.**Part 1: Dense Representations**: Constucted a co-occurance matrix using different window sizes, dimensionality reduction using SVD, evaluation of obtained and pretrained embeddings using Simlex-999 and Analogy Accuracy. <br>
-2. **Part 2: Cross-Lingual Alignment**: Cross Lingual Alignment of English and Hindi Embeddings by finding a mapping matrix W, using Procrustes Alignment, Linear Regression, Adversial training with and without orthogonalization Loss, evaluated using BLI (intrinsic) and Sentiment Classification after mapping(extrinsic). <br>
-3. **Bonus Task: Harmful Associations**: Evaluation of static embeddings for gender bias using WEAT dataset and contextual models using Pseudo Log Likelihoods comparision for stereotypical and non stereotypical sentences.
 
 ## Part 1: Dense Representations
 
