@@ -1,5 +1,33 @@
 # Dense_Language_Representations
 
+**⚠️ Note: Please read the accompanying report first for detailed methodology, analysis, and observations.**
+
+## Project Description
+
+### Task 1: Dense Representations
+
+The objective of this module is to explore the foundations of distributional semantics by generating dense word embeddings from scratch. Instead of relying solely on pre-trained models, we construct embeddings using statistical methods:
+
+* **Co-occurrence Matrix:** Converting a large English corpus (>300K sentences) into numerical form by tracking word pair frequencies within a fixed context window.
+* **Dimensionality Reduction:** Applying techniques (such as SVD) to compress the sparse  matrix into efficient dense vectors ().
+* **Evaluation:** Assessing embedding quality via semantic similarity, clustering, and visualization (t-SNE/PCA) against benchmarks like **SimLex-999** and **WordSimilarity-353**.
+* **Benchmarking:** Comparing these statistical embeddings against neural methods like **Word2Vec**, **GloVe**, and **FastText**.
+
+### Task 2: Cross-lingual Alignment
+
+This module extends word representations to a multilingual setting, specifically aiming to align English and Hindi vector spaces. By mapping embeddings from two different languages into a shared space, we enable cross-lingual knowledge transfer.
+
+* **Methodology:** We utilize **Procrustes Analysis** to learn a linear transformation matrix that aligns source (English) and target (Hindi) embeddings.
+* **Evaluation:** The effectiveness of the alignment is quantitatively measured to ensure that semantically similar words across languages are mapped closely in the shared vector space.
+
+### Bonus Task: Harmful Associations
+
+Word embeddings trained on large-scale human corpora often inherit social biases (e.g., gender, race). This module focuses on the ethical evaluation of NLP models.
+
+* **Static vs. Contextual:** We implement an evaluation regimen to quantify spurious associations in static embeddings (like GloVe) and analyze whether modern contextual models (like **BERT**) mitigate or perpetuate these biases.
+
+---
+
 **Important**: Install requirements.txt before everything. `pip install -r requirements.txt`
 
 ## Task 1
